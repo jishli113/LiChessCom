@@ -1,0 +1,120 @@
+.container{
+    width: 300px;
+    height: 350px;
+    text-align: center;
+    position: relative;
+    padding: none;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.main-title{
+    text-align: center;
+}
+.home-tab button{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 40%;
+    height: 40px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        display: inline-block;
+        margin-top: auto;
+        margin-bottom: auto;
+
+}
+.saved-tab button{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+}
+.register-tab button{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 50%;
+    height: 40px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: auto;
+    margin-bottom: auto;
+}
+.nav-button{
+    width: 100% !important;
+    cursor: pointer !important;
+    border-radius: 5px !important;
+}
+.nav-menu{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+}
+.nav-click{
+    width: 33%;
+    height: 100%;
+    cursor: pointer;
+}
+.icon-svg{
+    height: 40px;
+    width: 40px;
+}
+.save-analysis-popup{
+    margin-top: 30px;
+}
+.game-list{
+    overflow-y: hidden;
+    overflow: scroll;
+    height: 100%;
+    width: 100%;
+}
+.saved-game-text{
+    font-size: 10px;
+    text-align: center;
+}
+.saved-game-title{
+    font-size: 20px;
+    text-align: center;
+}
+.game-tab{
+    border: 1px solid black ;
+    display:flex;
+    text-align: center;
+    cursor: pointer;
+}
+.saved-tab{
+    height: 80%;
+    width: 100%;
+}
+.game-left-div{
+    display:block;
+    text-align: center;
+    width: 100%;
+}
+.register-tab input{
+    width: 75%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+}
+.home-tab input{
+    width: 75%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+}

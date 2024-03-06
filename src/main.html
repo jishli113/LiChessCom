@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet", href = "main.css">
+</head>
+<body class="container">
+    <div class="home-tab" style="display:block">
+        <h1 class="main-title">Chess.com to Lichess Game Analyzer</h1>
+        <button class="transfer-button" style="margin-bottom: 20px;">Transfer Analysis</button>
+        <h1>Or</h1>
+        <div style="margin-top: 20px;">
+            <input class="analysis-name" type="text">
+            <button class="save-analysis">Save Analysis</button>
+        </div>
+    </div>
+    <div class="saved-tab" style="display:none">
+            <h1 class="login-message" style="display: none;">Log in to save matches</h1>
+            <div class="game-list">
+            </div>
+    </div>
+    <div class="register-tab" style="display:none">
+        <div class="login">
+            <h1 class="main-title" style="text-align: center;">Login</h1>
+            <input class="email-login" type="email" placeholder="Email Address">
+            <input class="password-login" placeholder="Password" type="password">
+            <button class="button-login">Login</button>
+            <button class="button-to-register" style="margin-top: 20px;">Register A New User</button>
+        </div>
+        <div class="register">
+            <h1 class="main-title">Register</h1>
+            <input class="email-register" type = "email"placeholder="Email Address">
+            <input class="password-register" placeholder="Password" type="password">
+            <button class="button-register">Register</button>
+        </div>
+        <div class="logout">
+            <button class="button-logout">Logout</button>
+        </div>
+    </div>
+    <div class="nav-menu">
+        <div class="nav-click">
+            <button class="nav-button"><object class="icon-svg" data = "../icons/house-solid.svg"></object></button>
+        </div>
+        <div class="nav-click">
+            <button class="nav-button"><object class="icon-svg" data = "../icons/chess-solid.svg"></object></button>
+        </div>
+        <div class="nav-click">
+            <button class="nav-button"><object class="icon-svg" data = "../icons/user-solid.svg"></object></button>
+        </div>
+    </div>
+
+</body>
+    <script type="module" src="index.js"></script>
+</body>
+</html>
