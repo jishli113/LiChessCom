@@ -52,3 +52,30 @@ This project showcases modern **Chrome Extension development** using JavaScript,
 
 ## 📦 Project Structure
 
+```
+LiChesscom/
+├── main.html          # Popup interface (UI)
+├── main.css           # Styling for the popup
+├── script.js          # Core automation and logic
+├── manifest.json      # Chrome extension configuration (Manifest v3)
+├── package.json       # Firebase dependency (for future use)
+└── icons/             # Extension icons (rook set)
+```
+
+---
+
+## ⚙️ Installation (Developer Mode)
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/yourusername/lichesscom.git
+   ```
+2. Open Chrome and go to:
+   ```
+   https://chromewebstore.google.com/detail/lichesscom/jmknpincljfjkkljahbflgideobafdmo
+   ```
+3. Enable **Developer mode** (top-right corner).
+4. Click **Load unpacked** and select the project folder.
+5. Navigate to a Chess.com game.
+6. Open the extension popup and click **“Transfer Analysis”**.
+
